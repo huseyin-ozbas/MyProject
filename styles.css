@@ -1,0 +1,69 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    color: green;
+    font-size: 20px;
+    background-color: yellow;
+    text-align: center;
+}
+h2{
+    /* font-size: 50px; */
+    /* font-size: 2em; */
+    /* font-size: 200%; */
+    /* font-size: 0.3in; */
+    font-size: medium;
+    font-family: cursive;
+    text-align: center;
+    background-color: yellow;
+}
+/* USING TAG IS NOT RECOMMENDED SINCE 
+ORIGINAL TAG CHARACTERICTIC IS CHANGING
+USE CLASS ATTRIBUTE TO STYLE 
+. MEANS CLASS*/
+.my-class{
+    color: gold;
+    background-color: lightblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    font-size: 45px;
+}
+/* ID SHOULD BE UNIQUE
+# MEANS ID */
+#to-do-list{
+    color: pink;
+    background-color: black;
+    text-align: center;
+}
+.img1{
+    width: 200px;
+    height: 150px;
+    border: 2px solid purple;
+    margin: 10px;
+}
+.img2{
+    width: 200px;
+    height: 150px;
+    border: 2px dashed red;
+    padding: 10px;
+}
+.techpro-frame{
+    width: 100%;
+    height: 600px;
+    border: 5px dashed blueviolet;
+}
+
+/* using tags to style the web tables*/
+/* styling the table */
+table{
+    border: 1px solid red;
+    background-color: lightgray;
+}
+th{
+    border: 2px solid red;
+    background-color: darkgray;
+}
+td{
+    border: 1px solid purple;
+    color: green;
+}
